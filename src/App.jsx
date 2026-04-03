@@ -3,6 +3,45 @@ import imgNasgor from './assets/nasgor.png';
 import imgAyamPenyet from './assets/ayampenyet.png';
 import imgEsteh from './assets/esteh.png';
 import imgKentang from './assets/kentanggoreng.png';
+<<<<<<< HEAD
+=======
+// ==============================================
+
+const menuData = [
+  { 
+    id: 1, 
+    nama: "Ayam Goreng Penyet", 
+    harga: 25000, 
+    kategori: "Makanan", 
+    gambar: imgAyamPenyet, 
+    deskripsi: "Ayam goreng gurih dengan sambal korek pedas." 
+  },
+  { 
+    id: 2, 
+    nama: "Nasi Goreng Speciall", 
+    harga: 22000, 
+    kategori: "Makanan", 
+    gambar: imgNasgor, 
+    deskripsi: "Nasi goreng dengan telur mata sapi dan sosis." 
+  },
+  { 
+    id: 3, 
+    nama: "Es Teh Manis", 
+    harga: 5000, 
+    kategori: "Minuman", 
+    gambar: imgEsteh, 
+    deskripsi: "Segar dan manis alami." 
+  },
+  { 
+    id: 5, 
+    nama: "Kentang Goreng", 
+    harga: 15000, 
+    kategori: "Snack", 
+    gambar: imgKentang, 
+    deskripsi: "Kentang renyah dengan taburan garam." 
+  }
+];
+>>>>>>> e4f6a61491da2247c6d8bb41ebcd33eec15047e7
 
 function App() {
   const [menuData, setMenuData] = useState([]);
