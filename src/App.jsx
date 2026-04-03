@@ -18,7 +18,7 @@ const menuData = [
   },
   { 
     id: 2, 
-    nama: "Nasi Goreng Special", 
+    nama: "Nasi Goreng Speciall", 
     harga: 22000, 
     kategori: "Makanan", 
     gambar: imgNasgor, 
